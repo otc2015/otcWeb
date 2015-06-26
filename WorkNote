@@ -1,3 +1,7 @@
+
 2015.06.26
   translate related websites links to english version
-  大葉大學:link更改
+  
+  bug detected:
+    otherWeb.aspx : (L114) 大葉大學:link  http://cd.dyu.edu.tw/indexa.html --> http://cd-dyu.com/index.php
+    enWebMasterPage.master : (L29) affilates --> affiliates
