@@ -5,7 +5,7 @@
   try to use github
   
   bug detected :
-    otherWeb.aspx : (L114) 大葉大學:link  http://cd.dyu.edu.tw/indexa.html --> http://cd-dyu.com/index.php
+    otherWeb.aspx : (L114) 大葉大學:link  http://cd.dyu.edu.tw/indexa.html --> http://cd-dyu.com/index.php (fixed)
     enWebMasterPage.master : (L29) affilates --> affiliates
 
 
