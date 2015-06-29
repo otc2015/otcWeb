@@ -4,6 +4,16 @@
   translate related websites links to english version(to開南)
   try to use github
   
-  bug detected:
+  bug detected :
     otherWeb.aspx : (L114) 大葉大學:link  http://cd.dyu.edu.tw/indexa.html --> http://cd-dyu.com/index.php
     enWebMasterPage.master : (L29) affilates --> affiliates
+
+
+2015.06.29
+  
+  IMPORTANT:
+    中心主任 : 英文姓名： Hui-Wen Chou -->  英文姓名： Huey-Wen Chou
+  
+  bug detected :
+    other.aspx : (L224) 銘傳大學:link  http://www.mcu.edu.tw/department/genedu/index.asp --> http://web.gec.mcu.edu.tw/
+    
