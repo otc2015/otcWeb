@@ -1,0 +1,24 @@
+﻿        ul{
+			list-style-type: none;
+		}
+		li{
+			display:inline;
+			padding: 6px 10px 0px 10px;
+			background-color: #B3EE3A;
+			float: left;
+			
+			-moz-border-radius: 10px; /* Firefox */
+  			-webkit-border-radius: 10px; /* Safari, Chrome */
+  			-khtml-border-radius: 10px; /* Konqueror */
+			border-radius: 25px; /* Opera 10.50 and later (CSS3 standard) */
+			behavior: url('ieRadiusCSS3.htc'); /* IE6, IE7, IE8 */
+
+		}
+		li:hover{
+			background-color: #FFF68F;
+			color: white;
+		}
+			
+		li.currentPage {
+			background-color: #66CD00;
+		}

@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="enWebMasterPage.master.cs" Inherits="enVersion_enWebMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>National Central University Office of Teaching Centers</title>
+    <link rel="stylesheet" type="text/css" href="mainStyles.css" /> 
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <div id="wrapper">
+        <div id="header">
+            <a href="aboutOTC.aspx"><img alt="Banner" src="images/banner001.jpg" height="10%" width="100%" /></a>
+        </div>
+        <br><br>
+        <div id="blank">&nbsp;</div>
+        <div id="menuBar">
+            <!-- menu link -->
+		    <img src="menuImg/menuTop.jpg" alt="" width="70%" style="vertical-align:bottom;display:block;">
+            <a href="aboutOTC.aspx"><img src="menuImg/aboutOTC.jpg" alt="About OTC" width="70%" style="vertical-align:bottom;display:block;"></a>
+		    <a href="director.aspx"><img src="menuImg/director.jpg" alt="Director" width="70%" style="vertical-align:bottom;display:block;"></a>
+		    <a href="affiliates.aspx"><img src="menuImg/affiliates.jpg" alt="Affiliates" width="70%" style="vertical-align:bottom;display:block;"></a>
+		    <a href="relatedWeb.aspx"><img src="menuImg/relatedWeb.jpg" alt="Related Websites" width="70%" style="vertical-align:bottom;display:block;"></a>
+		    <a href="contactUs.aspx"><img src="menuImg/contactUs.jpg" alt="Contact Us" width="70%" style="vertical-align:bottom;display:block;"></a>
+		   	<img src="menuImg/menuBottom.jpg" alt="" width="70%" style="display:block;">
+
+		    <div style="text-align:left;margin-top:5%;font-size: 16px;" class="fontFamily">
+			    &nbsp;&nbsp; Number of Visitor：<script src="http://www.dreamhome.com.tw/escounter/counter.asp?name=ncuotc&dir=043"></script>
+		    </div>
+        </div>
+
+        <div id="content">
+            <asp:ContentPlaceHolder ID="mainContent" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+        <br>
+	    <div id="footer">
+		    <img src="images/banner002.jpg" alt="Banner" width="40%" height="10%" />
+	    </div>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
