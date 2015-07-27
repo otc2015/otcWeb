@@ -33,3 +33,7 @@
 
   develop worklog
     
+    
+2015.7.27
+    
+    finish english web
