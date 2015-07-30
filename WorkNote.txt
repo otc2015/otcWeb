@@ -51,5 +51,5 @@
   
 2015.7.30
 
-  modify units.aspx : 師培中心,出版中心,科教中心
+  modify units.aspx : delete 師培中心,出版中心,科教中心
   develop worklog
