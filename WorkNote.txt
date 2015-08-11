@@ -53,3 +53,15 @@
 
   modify units.aspx : delete 師培中心,出版中心,科教中心
   develop worklog
+
+
+2015.8.5
+
+  develop worklog
+  study C#
+  
+  
+2015.8.11
+
+  committee.aspx : update committee103.pdf, upload committee104.pdf
+  
