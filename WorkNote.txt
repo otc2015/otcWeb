@@ -71,3 +71,8 @@
   develop worklog
   enVersion/director.aspx : (L20) +886-3-4227151-66523  --> +886-3-4227151-34808、66523
   director.aspx : (L20)  03-4227151-66523  -->   03-4227151-34808、66523
+  
+  
+2015.8.21
+
+  otherWeb.aspx : add 清華學院
