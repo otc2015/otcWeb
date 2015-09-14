@@ -76,3 +76,10 @@
 2015.8.21
 
   otherWeb.aspx : add 清華學院
+
+
+2015.9.14
+
+  otherWeb.aspx : (L208) update URL for 華梵
+                  (L227) updaye URL for 銘傳
+  relatedWeb.aspx : (L107) add name: TamKang University
