@@ -83,3 +83,9 @@
   otherWeb.aspx : (L208) update URL for 華梵
                   (L227) updaye URL for 銘傳
   relatedWeb.aspx : (L107) add name: TamKang University
+  
+  
+2015.9.23
+
+  rules.aspx : upload law037.pdf and law037-form.docx
+  MasterPage.master : add menu item :backNCU
