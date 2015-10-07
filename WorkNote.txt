@@ -89,3 +89,12 @@
 
   rules.aspx : upload law037.pdf and law037-form.docx
   MasterPage.master : add menu item :backNCU
+
+
+2015.10.7
+
+  director03.aspx : (L21) update personal website
+  director04.aspx : (L21) update personal website
+  rules.aspx : (L51)、(L62) split form form pdf file
+  download.aspx : update files
+  
