@@ -99,3 +99,9 @@
   download.aspx : update files
   
   
+2015.10.26
+
+  director.aspx : (L29) Ph.D. of Educational psychology --> Ph.D. Educational Psychology
+                  (L40) Professor of Department --> Professor, Department
+                  (L41) Director of Department --> Director, Department 
+  relatedWed.aspx : change names of all units
