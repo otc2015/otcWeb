@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/evaWeb/evaMasterPage.master" AutoEventWireup="true" CodeFile="contentPage.master.cs" Inherits="evaWeb_contentPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="header" Runat="Server">
+    <style>
+        body{
+            font-family:Microsoft JhengHei,PMingLiU,Serif;
+            font-size:16px;
+        }
+    </style>
+    <asp:contentPlaceHolder ID="contentPageHeader" runat="server"> </asp:contentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="mainContent" Runat="Server">
+    <div>
+        <h2 style="margin-left:10px;">評鑑內容</h2>
+        <table border="0" cellpadding="0" cellspacing="0" style="margin:50px 0 0 50px;">
+            <tr>
+                <td><a href="content1.aspx">（一）依據</a></td>
+                <td><a href="content6.aspx">（六）評鑑教育訓練</a></td>
+                <td><a href="content11.aspx">（十一）評鑑結果運用</a></td>
+            </tr>
+            <tr>
+                <td><a href="content2.aspx">（二）評鑑對象</a></td>
+                <td><a href="content7.aspx">（七）自我評鑑報告及繳交資料</a></td>
+                <td><a href="content12.aspx">（十二）追蹤評鑑與再評鑑</a></td>
+            </tr>
+            <tr>
+                <td><a href="content3.aspx">（三）評鑑重點</a></td>
+                <td><a href="content8.aspx">（八）評鑑委員實地訪評</a></td>
+                <td><a href="content13.aspx">（十三）申復機制</a></td>
+            </tr>
+            <tr>
+                <td><a href="content4.aspx">（四）自評項目及參考效標</a></td>
+                <td><a href="content9.aspx">（九）評鑑結果公布</a></td>
+                <td><a href="content14.aspx">（十四）其他</a></td>
+            </tr>
+            <tr>
+                <td><a href="content5.aspx">（五）評鑑組織、運作及自評作業流程</a></td>
+                <td><a href="content10.aspx">（十）評鑑結果改善及追蹤管考</a></td>
+                <td> </td>
+            </tr>
+        </table>
+        <hr>
+　
+    </div>
+    <div id="content3">
+        <asp:ContentPlaceHolder ID="targetPageContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
+
