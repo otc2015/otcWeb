@@ -1,0 +1,107 @@
+
+2015.06.26
+
+  translate related websites links to english version(to開南)
+  try to use github
+  
+  bug detected :
+    otherWeb.aspx : (L114) 大葉大學:link  http://cd.dyu.edu.tw/indexa.html --> http://cd-dyu.com/index.php (fixed)
+    enWebMasterPage.master : (L29) affilates --> affiliates
+
+
+2015.06.29
+  
+  IMPORTANT:
+    中心主任 : 英文姓名： Hui-Wen Chou -->  英文姓名： Huey-Wen Chou
+  
+  bug detected :
+    other.aspx : (L224) 銘傳大學:link  http://www.mcu.edu.tw/department/genedu/index.asp --> http://web.gec.mcu.edu.tw/
+    
+    
+2015.06.30
+
+  develop worklog and string factory
+  
+  
+2015.7.13
+
+  build affiliates.aspx, wait for english images
+  build worklog:Bug.java, ToDo.java, Importance.java
+  
+  
+2015.7.15
+
+  develop worklog
+    
+    
+2015.7.27
+    
+    finish english web
+
+
+2015.7.28
+
+  develop worklog
+
+
+2015.7.29
+
+  develop worklog
+  
+  
+2015.7.30
+
+  modify units.aspx : delete 師培中心,出版中心,科教中心
+  develop worklog
+
+
+2015.8.5
+
+  develop worklog
+  study C#
+  
+  
+2015.8.11
+
+  committee.aspx : update committee103.pdf, upload committee104.pdf
+  
+  
+2015.8.19
+  
+  develop worklog
+  enVersion/director.aspx : (L20) +886-3-4227151-66523  --> +886-3-4227151-34808、66523
+  director.aspx : (L20)  03-4227151-66523  -->   03-4227151-34808、66523
+  
+  
+2015.8.21
+
+  otherWeb.aspx : add 清華學院
+
+
+2015.9.14
+
+  otherWeb.aspx : (L208) update URL for 華梵
+                  (L227) updaye URL for 銘傳
+  relatedWeb.aspx : (L107) add name: TamKang University
+  
+  
+2015.9.23
+
+  rules.aspx : upload law037.pdf and law037-form.docx
+  MasterPage.master : add menu item :backNCU
+
+
+2015.10.7
+
+  director03.aspx : (L21) update personal website
+  director04.aspx : (L21) update personal website
+  rules.aspx : (L51)、(L62) split form form pdf file
+  download.aspx : update files
+  
+  
+2015.10.26
+
+  director.aspx : (L29) Ph.D. of Educational psychology --> Ph.D. Educational Psychology
+                  (L40) Professor of Department --> Professor, Department
+                  (L41) Director of Department --> Director, Department 
+  relatedWed.aspx : change names of all units

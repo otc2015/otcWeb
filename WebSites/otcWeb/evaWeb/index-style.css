@@ -1,0 +1,32 @@
+﻿div#bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+}
+
+div#bg:hover{
+    top:0px;
+    left:3px;
+}
+
+img{
+    border:0px;
+}
+
+a{
+	text-decoration:none;
+}
+		
+li:hover{
+	background-color: #FFFACD;
+	color: #000000;
+}
+		
+a:link{
+	color: #BEBEBE;
+}
+		
+a:visited{
+	color: #BEBEBE;
+}

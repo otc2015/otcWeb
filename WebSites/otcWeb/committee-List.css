@@ -1,0 +1,70 @@
+﻿  		ul, li{						/* 取消原預設CSS設定 */
+  			list-style-type: none;
+  			padding: 0px;
+  			margin: 0px;
+  		}
+  		
+  		ul.list li{					/* 使選單聚集在左上角 */
+  			position: relative;
+  			float: left;
+  		}
+  		
+  		ul.list li a{				/* 設定第一層選單連結樣式 */
+  			color: #000;
+  			display: block;
+  			background-color: #FFF;
+  			padding: 12px 20px;
+  		}
+  		
+  		ul.list li a:hover{			/* 當第一層選單連結被觸發時顏色變化 */
+  			background-color: #FFEFD5;
+  		}
+  		
+  		
+  		ul.list ul{					/* 第二層選單平時是隱藏的 */
+  			display: none;
+  			left: 0px;
+  			margin: 0px;
+  			position: absolute;
+  			float: left;
+  		}
+
+		ul.list li:hover > ul{		/* 當第一層選單被觸發時，指定第二層顯示 */
+    		display: block;
+			position: absolute;
+			top: 0;    				/* top 0及 left 100%是為了呈現在右邊 */
+			left: 100%;
+		}
+		
+		ul.list ul a{				/* 設定第二層選單連結樣式 */
+			padding: 12px 20px;
+  			width: 130px;
+			background-color: #FFF;
+		}
+		
+		ul.list ul li a:hover{		/* 當第二層選單被觸發時，顏色改變 */
+			background-color: #FFEFD5;
+		}
+			
+			
+
+		ul.list ul li {				/* 特定在第二層或以後下拉部分 li 之樣式 */
+			border-bottom: 1px solid #DDD;
+		}
+
+		ul.list ul li:last-child {	/* 特定在第二層或以後下拉部分 li （最後一項不要底線）之樣式 */
+			border-bottom: none;
+		}
+
+		
+		/* 箭頭向右 */
+		.arrow-right {
+    		display: inline-block;
+    		margin-top:-0.5px;
+			margin-left: 10px;    
+			border-top: 4.5px solid transparent;
+			border-bottom: 4.5px solid transparent;
+			border-left: 4.5px solid #696969;        
+			width: 1.5px;
+			height: 1.5px;
+		}

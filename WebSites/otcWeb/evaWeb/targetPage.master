@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/evaWeb/evaMasterPage.master" AutoEventWireup="true" CodeFile="targetPage.master.cs" Inherits="evaWeb_targetPage" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="header" Runat="Server">
+    <style>
+        body{
+            font-family:Microsoft JhengHei,PMingLiU,Serif;
+            font-size:16px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="mainContent" Runat="Server">
+        <div>
+        <h2 style="margin-left:10px;">自評項目及參考效標</h2>
+        <p style="margin-left:30px;">
+　　為評估通識教育之學生學習成效，透過計畫(Plan)、執行(Do)、檢核(Check)及行動
+(Action)之<br>品質保證機制，檢視教學品質，建立自我改善機制，評鑑內容與標準涵蓋以下五大評鑑項目：</p>
+        <p>
+　　　　<a href="target.aspx">（一）教育理念與目標<br></a>
+　　　　<a href="target2.aspx">（二）學生學習成效檢核與學習資源<br></a>
+　　　　<a href="target3.aspx">（三）教師提升學生學習成效措施<br></a>
+　　　　<a href="target4.aspx">（四）增進學習成效之行政輔助措施<br></a>
+　　　　<a href="target5.aspx">（五）其他</a>
+        </p>
+        <hr>
+    </div>
+    <div id="content3">
+        <asp:ContentPlaceHolder ID="targetPageContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+</asp:Content>
+
+
